@@ -8,8 +8,8 @@ const projects = [
       "Built an AI-based Q&A system using LangChain and FAISS for real-time PDF querying, enabling users to extract insights from research documents.",
     image: "./projects/image.png",
     tags: ["Python", "LangChain", "FAISS", "Streamlit"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/prajodh/pdf-qa-agent",
+    // demoUrl: "#",
+    githubUrl: "https://github.com/prajodh/learn_using_pdf_llm",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const projects = [
       "Developed an interactive CLI-based Pokédex using Golang with real-time Pokémon data fetching and REPL interface.",
     image: "/projects/image1.png",
     tags: ["Golang", "REST APIs", "CLI", "Caching"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/prajodh/go-pokedex-cli",
+    // demoUrl: "#",
+    githubUrl: "https://github.com/prajodh/pokedex-CLI",
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ const projects = [
       "Architected a secure backend system with JWT authentication, microservices, and an AI-powered chatbot for rentals and analytics.",
     image: "/projects/hpass.png",
     tags: ["Node.js", "Express.js", "MongoDB", "Docker"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/prajodh/car-rental-backend",
+    // demoUrl: "#",
+    githubUrl: "https://github.com/seteam19/se_team19_car_rental_management_system",
   }
 ];
 
@@ -78,13 +78,6 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
                     <a
                       href={project.githubUrl}
                       target="_blank"
